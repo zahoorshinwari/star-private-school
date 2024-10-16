@@ -1,0 +1,3 @@
+;/*FB_PKG_DELIM*/
+
+__d("composerGetWhatsAppMessagesCreationDataTransform",["mediaAttachmentAreaTransform"],(function(a,b,c,d,e,f,g){"use strict";function a(a,b,d){if(a.isGetWhatsAppMessagePost===!0){var e,f,g;e=(e=a.isGetWhatsAppMessagePostAttachmentData)!=null?e:{};f=(f=e.catalogAttachmentItemName)!=null?f:"";g=(g=e.catalogAttachmentItemPrice)!=null?g:"";e=e.isWhatsAppCatalogAttachment===!0&&f!==""&&g!=="";g=babelHelpers["extends"]({},b,{call_to_action_data:babelHelpers["extends"]({},b.call_to_action_data,{is_cta_share_post:!0,link_description:g,link_format:e?"WHATSAPP_CATALOG_ATTACHMENT":null,link_title:f,type:"WHATSAPP_MESSAGE"})});return a.mediaAttachments!=null?c("mediaAttachmentAreaTransform")(a,g,d):d(g)}return d(b)}g["default"]=a}),98);
